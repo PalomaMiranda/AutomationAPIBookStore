@@ -78,6 +78,32 @@ Os testes estão integrados ao GitHub Actions, rodando em:
 
 ---
 
+### 🔷 Collection Postman
+
+Além dos testes automatizados com Cucumber + Rest Assured, este projeto disponibiliza também uma collection pública no Postman para validar manualmente a API BookStore.
+
+Link: https://documenter.getpostman.com/view/42982494/2sB3HetNij
+
+Essa Collection Contém:
+
+- Create User;
+
+- Generate Token;
+
+- Authorized Login;
+
+- Search User by UUID; 
+
+- Add Book to User;
+
+- Update Book to User;
+
+- Update Book by ISBN; 
+
+- Delete User.
+
+---
+
 ### 🔷 Estrutura do Projeto
 
 Bookstore
