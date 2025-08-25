@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T21:12:32 BRT" name="Cucumber TestNG Suite" finished-at="2025-08-24T21:13:18 BRT" duration-ms="46230">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-24T21:12:32 BRT" name="Run Cucumber" finished-at="2025-08-24T21:13:18 BRT" duration-ms="46230">
+      <class name="runner.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:32 BRT" name="setUpClass" finished-at="2025-08-24T21:12:32 BRT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@707f4647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:32 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:37 BRT" duration-ms="5021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Criação de Usuário Dinâmico"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:37 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:38 BRT" duration-ms="823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tentativa de Criação de Usuário Já Existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:38 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:39 BRT" duration-ms="1240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Geração de Token Válido Com Usuário Válido"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:39 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:41 BRT" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Geração de Token com Usuário Inválido"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:41 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:41 BRT" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Autorização de Login Válido"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:41 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:43 BRT" duration-ms="1346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Autorização de Login Inválido"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:43 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:47 BRT" duration-ms="4779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adição de Livro ao Usuário Dinâmico"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:47 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:53 BRT" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adição de Livro Inválido ao Usuário Dinâmico"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:53 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:12:59 BRT" duration-ms="6404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Atualização de Livro Existente Pelo ISBN"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:12:59 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:13:07 BRT" duration-ms="8212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tentativa de Atualização de Livro Inexistente Pelo ISBN"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:13:07 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:13:12 BRT" duration-ms="4625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Consultar Usuário Criado Dinamicamente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:13:12 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:13:13 BRT" duration-ms="726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tentativa de Consulta à Usuário Inexistente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:13:13 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:13:14 BRT" duration-ms="1433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deletar Usuário Existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:13:14 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-24T21:13:18 BRT" duration-ms="4193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Tentativa de Deletar Usuário com Token Inválido"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testes da API BookStore"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCucumberTest@45018215]" started-at="2025-08-24T21:13:18 BRT" name="tearDownClass" finished-at="2025-08-24T21:13:18 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCucumberTest -->
+    </test> <!-- Run Cucumber -->
+  </suite> <!-- Cucumber TestNG Suite -->
+</testng-results>
