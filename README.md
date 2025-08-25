@@ -1,7 +1,7 @@
-BookStore API Automation
+📚 BookStore API Automation
 
-Automação de testes da API BookStore utilizando Java, TestNG, Cucumber e Rest Assured. O projeto realiza testes de criação, consulta, atualização e deleção de usuários e livros.
-
+Automação de testes da API BookStore utilizando Java, TestNG, Cucumber e Rest Assured.
+O projeto cobre cenários de criação, consulta, atualização e deleção de usuários e livros, garantindo a qualidade da API.
 
 🔷 Tecnologias e Dependências
 
@@ -13,26 +13,61 @@ Automação de testes da API BookStore utilizando Java, TestNG, Cucumber e Rest 
 
 - TestNG como framework de testes;
 
-- Rest Assured para testes de API REST.
+- Rest Assured para testes de API REST;
+
+- Extent Reports para relatórios HTML interativos.
 
 
 🔷 Configuração e Execução
 
 1. Clone o Repositório: 
-- git clone <URL_DO_REPOSITORIO>
-- cd bookstore-api
+- git clone https://github.com/PalomaMiranda/AutomationAPIBookStore
+- cd AutomationAPIBookStore
 
 2. Execute os testes via Gradle:
 - ./gradlew clean cucumber
 
-🔷 Dependências principais:
+3. No Windows (PowerShell):
+- gradlew.bat clean cucumber
 
-- testImplementation("io.cucumber:cucumber-java:7.18.0")
-- testImplementation("io.cucumber:cucumber-testng:7.18.0")
-- testImplementation("org.testng:testng:7.8.0")
-- testImplementation("io.rest-assured:rest-assured:5.5.0")
-- implementation("org.slf4j:slf4j-simple:2.0.12")
 
+🔷 Relatórios de Teste (Extent Reports)
+
+Ao final da execução, um relatório interativo em HTML é gerado:
+
+📂 Caminho:
+
+build/reports/extent-report/extent.html
+
+Para visualizar, basta abrir no navegador:
+./build/reports/extent-report/extent.html
+
+O relatório mostra:
+
+- Nome dos cenários executados;
+
+- Status (Pass/Fail/Skipped);
+
+- Logs detalhados de cada etapa;
+
+- Captura de mensagens e exceções.
+
+O relatório também é publicação como artefato no GitHub Actions.
+
+É possível baixar o relatório diretamente da aba Actions → Job → Artifacts.
+
+
+🔷 Integração Contínua (CI) – GitHub Actions
+
+Os testes estão integrados ao GitHub Actions, rodando em:
+
+- Push para as branches main ou master;
+
+- Pull Requests;
+
+- Execução manual (workflow_dispatch);
+
+- Agendamento semanal: toda quinta-feira às 12:00 UTC (09:00 BRT), sendo escolhido por ser um dia comumente usado para deploys.
 
 🔷 Estrutura do Projeto
 
@@ -47,13 +82,13 @@ Bookstore
 │               ├─ db/         
 │               └─ features/                 
 │
-├─ build.gradle             
-└─ README.md
-
+├─ build.gradle.kts           
+├─ README.md
+└─ TestDesign.md
 
 🔷 Funcionalidades Testadas
 
-Account: 
+👤 Account:
 
 - Criação de usuário dinâmico;
 
@@ -75,7 +110,7 @@ Account:
 
 - Deleção com token inválido.
 
-Books: 
+📚 Books: 
 
 - Adição de livro ao usuário dinâmico;
 
