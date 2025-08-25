@@ -1,10 +1,12 @@
 Test Design – BookStore API
 
-🔷 Objetivo: 
+##  🔷 Objetivo: 
 
 Este documento descreve o raciocínio e a justificativa para os cenários de teste automatizados implementados para a API BookStore. O objetivo é garantir que todas as funcionalidades críticas sejam validadas, incluindo fluxos positivos e tratamento de erros.
 
-🔷 Critérios para Seleção de Cenários: 
+---
+
+### 🔷 Critérios para Seleção de Cenários: 
 
 - Cobertura de funcionalidades críticas: criação, consulta, atualização e deleção de usuários e livros.
 
@@ -16,7 +18,9 @@ Este documento descreve o raciocínio e a justificativa para os cenários de tes
 
 - Integridade dos dados: garantir que operações de atualização e deleção não causem inconsistências.
 
-🔷 Cenários e Justificativas: 
+---
+
+### 🔷 Cenários e Justificativas: 
 
 
 - Criação de usuário dinâmico: Testa o fluxo principal de criação de usuários com dados válidos, garantindo que o sistema gere IDs únicos e tokens válidos.
@@ -34,7 +38,9 @@ Este documento descreve o raciocínio e a justificativa para os cenários de tes
 - Deleção de usuário existente: Testa o fluxo principal de deleção de usuários.
 - Deleção com token inválido: Confirma que operações de deleção requerem autenticação válida.
 
-🔷 Considerações Finais: 
+---
+
+### 🔷 Considerações Finais: 
 
 - Os cenários positivos asseguram que funcionalidades principais da API funcionam conforme esperado.
 

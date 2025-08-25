@@ -1,9 +1,13 @@
-📚 BookStore API Automation
+##  📚 BookStore API Automation
+
+---
 
 Automação de testes da API BookStore utilizando Java, TestNG, Cucumber e Rest Assured.
 O projeto cobre cenários de criação, consulta, atualização e deleção de usuários e livros, garantindo a qualidade da API.
 
-🔷 Tecnologias e Dependências
+---
+
+### 🔷 Tecnologias e Dependências
 
 - Java 17+;
 
@@ -17,8 +21,9 @@ O projeto cobre cenários de criação, consulta, atualização e deleção de u
 
 - Extent Reports para relatórios HTML interativos.
 
+---
 
-🔷 Configuração e Execução
+### 🔷 Configuração e Execução
 
 1. Clone o Repositório: 
 - git clone https://github.com/PalomaMiranda/AutomationAPIBookStore
@@ -30,19 +35,20 @@ O projeto cobre cenários de criação, consulta, atualização e deleção de u
 3. No Windows (PowerShell):
 - gradlew.bat clean cucumber
 
+---
 
-🔷 Relatórios de Teste (Extent Reports)
+### 🔷 Relatórios de Teste (Extent Reports)
 
 Ao final da execução, um relatório interativo em HTML é gerado:
 
-📂 Caminho:
+#### 📂 Caminho:
 
 build/reports/extent-report/extent.html
 
 Para visualizar, basta abrir no navegador:
 ./build/reports/extent-report/extent.html
 
-O relatório mostra:
+#### O relatório mostra:
 
 - Nome dos cenários executados;
 
@@ -56,8 +62,9 @@ O relatório também é publicação como artefato no GitHub Actions.
 
 É possível baixar o relatório diretamente da aba Actions → Job → Artifacts.
 
+---
 
-🔷 Integração Contínua (CI) – GitHub Actions
+### 🔷 Integração Contínua (CI) – GitHub Actions
 
 Os testes estão integrados ao GitHub Actions, rodando em:
 
@@ -69,7 +76,9 @@ Os testes estão integrados ao GitHub Actions, rodando em:
 
 - Agendamento semanal: toda quinta-feira às 12:00 UTC (09:00 BRT), sendo escolhido por ser um dia comumente usado para deploys.
 
-🔷 Estrutura do Projeto
+---
+
+### 🔷 Estrutura do Projeto
 
 Bookstore
 
@@ -86,9 +95,11 @@ Bookstore
 ├─ README.md
 └─ TestDesign.md
 
-🔷 Funcionalidades Testadas
+---
 
-👤 Account:
+### 🔷 Funcionalidades Testadas
+
+#### 👤 Account:
 
 - Criação de usuário dinâmico;
 
@@ -110,7 +121,7 @@ Bookstore
 
 - Deleção com token inválido.
 
-📚 Books: 
+#### 📚 Books: 
 
 - Adição de livro ao usuário dinâmico;
 
@@ -120,8 +131,9 @@ Bookstore
 
 - Atualização de livro inexistente (ISBN inválido). 
 
+---
 
-🔷 Estrutura dos Testes
+### 🔷 Estrutura dos Testes
 
 - Cucumber Features: arquivos .feature descrevem os cenários em linguagem natural (Gherkin).
 
